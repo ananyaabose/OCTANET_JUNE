@@ -1,0 +1,193 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("bg.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+nav{
+    width: 100%;
+    height:100px;
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    font-size:2em ;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.register a:hover,.txt a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+.txt{
+    max-width: 650px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    text-align: center;
+}
+.txt span{
+    letter-spacing: 5px;
+
+}
+.txt h1{
+    font-size: 3.5em;
+}
+.txt a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    background: indianred;
+    border-radius: 8px;
+}
+.menu a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition:0.4s linear;
+}
+.menu a:hover::after{
+    width: 90%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+.header{
+    background-color: indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.h1{
+    color: black;
+}
+
+.nav{
+    display: flex;
+    gap:25px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav a:hover{
+    color: azure;
+    transition: all 0.3s ease-out ;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero{
+     
+    text-align: center;
+    width: 100%;
+
+}
+
+.hero-inner{
+    text-align: justify;
+    padding: 20px 30px;
+    background-color: darksalmon;
+}
+
+.hero-inner h2{
+    text-align: center;
+
+}
+
+.hero-inner p{
+    text-align: justify;
+}
+.hero-inner a{
+    text-decoration: none;
+
+}
+
+.hero-inner .button{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px;
+}
+.hero-inner .button:hover{
+    color: #f00;
+    transition: all 0.4s ease-out;
+}
+
+.footer{
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
